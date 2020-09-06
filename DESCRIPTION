@@ -1,0 +1,22 @@
+Package: timeR
+Title: Track and evaluate how you spend your time at work
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Dag",
+           family = "Tanneberg",
+           role = c("aut", "cre"),
+           email = "dag.tanneberg@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package bundles an R Shiny app that allows
+  tracking, classification, and simple exploratory data analysis
+  of work items.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat
+Imports: 
+    shiny (>= 1.4.0),
+    shinydashboard (>= 0.7.1)
