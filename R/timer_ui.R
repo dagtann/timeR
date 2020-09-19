@@ -16,7 +16,7 @@ timer_ui <- function() {
       shinydashboard::tabItems(
         shinydashboard::tabItem(
           tabName = "track",
-          shiny::h2("Track Your Latest Activity"),
+          shiny::h2("Track Your Latest Activities"),
           track_ui(id = "track")
         ),
         shinydashboard::tabItem(tabName = "assess", shiny::h2("Analyse Your Latest Activities")),

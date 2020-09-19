@@ -20,3 +20,5 @@ Suggests:
 Imports: 
     shiny (>= 1.4.0),
     shinydashboard (>= 0.7.1)
+Depends: 
+    R (>= 2.10)

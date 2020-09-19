@@ -1,4 +1,4 @@
 #' @export
 timer <- function(input, output, session) {
-  # Do awesome stuff
+  callModule(track, id = "track")
 }
